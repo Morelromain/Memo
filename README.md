@@ -135,7 +135,7 @@ lancer sur Heroku : `heroku container:release  web --app <nom_app>`
 ---
 <a name="React"></a>
 
-## 7 : React
+## 8 : React
 
 vérifier node et npm sont installé: `node -v` `npm -v`  
 creer projet : `npx create-react-app <nom_projet>`  
