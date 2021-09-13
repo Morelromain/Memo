@@ -2,12 +2,13 @@
 
 [1 : Environnement virtuel](#Env)  
 [2 : Git/Git Hub](#Git)  
-[3 : Tests](#Test)  
+[3 : Tests Python](#Test)  
 [4 : Django](#Django)  
 [5 : SQL](#SQL)  
 [6 : Docker](#Docker)  
 [7 : Heroku](#Heroku)  
-[8 : Liens](#Liens)
+[8 : React](#React)  
+[Documentation](#Liens)
 
 ---
 <a name="Env"></a>
@@ -62,7 +63,7 @@ envoyer sur github : `git push -u origin`
 ---
 <a name="Test"></a>
 
-## 3 : Tests
+## 3 : Tests Python
 
 lancer pytest complet : `pytest <dossier_test> -vvv`  
 lancer locust : `locust -f <dossier_test>/locustfile.py`  
@@ -132,9 +133,22 @@ lancer sur Heroku : `heroku container:release  web --app <nom_app>`
 [Doc Heroku](https://devcenter.heroku.com/categories/reference#command-line)
 
 ---
+<a name="React"></a>
+
+## 7 : React
+
+vérifier node et npm sont installé: `node -v` `npm -v`  
+creer projet : `npx create-react-app <nom_projet>`  
+lancer projet : `npm start`  
+reprendre projet : `npm i`  
+compiler projet : `npm run build`  
+bibliothèque : `npm i -s router react-router-dom node-sass` 
+[Doc React](https://fr.reactjs.org/)
+
+---
 <a name="Liens"></a>
 
-## 8 : Documentation
+## Documentation
 
  | [Aide Python](https://docs.python.org/fr/3/) | 
 [Aide javascript](https://javascript.info/) | 
