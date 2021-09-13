@@ -142,7 +142,7 @@ creer projet : `npx create-react-app <nom_projet>`
 lancer projet : `npm start`  
 reprendre projet : `npm i`  
 compiler projet : `npm run build`  
-bibliothèque : `npm i -s router react-router-dom node-sass` 
+bibliothèque : `npm i -s router react-router-dom node-sass`  
 [Doc React](https://fr.reactjs.org/)
 
 ---
